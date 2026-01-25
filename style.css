@@ -1,0 +1,322 @@
+.body{
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f5f4f4;
+    margin:0;
+    padding :0;
+    background:url(https://tse1.mm.bing.net/th/id/OIP.Sp7hOT3iemgFWOmWTBahuQHaEo?pid=Api&h=220&P=0);
+    background-size: cover;
+background-repeat: no-repeat;
+   
+  
+    
+}
+.head{
+    width:auto;
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:auto;
+    margin: auto;
+}
+.head img{
+    height:50px;
+    color:white;
+    font-size:50px;
+    margin-top:20px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.nav{
+    display: grid;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 0px;
+    gap:100px;
+    background-color: black;    
+}
+.nav1 button{
+    background-color: rgb(202, 230, 65);
+    color:white;
+    font-size:20px;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+    border-radius:10px;
+    margin:10px;
+    align-items: right;
+   
+    padding-left: 10px;;
+}
+.nav1 button:hover{
+    background-color: rgb(7, 136, 21);
+}
+.nav2 input{
+    width:500px;
+    height:30px;
+    border-radius:5px;
+    border:none;
+    padding:5px;
+    font-size:16px;
+}
+.nav2 button{
+    height:42px;
+    border:none;
+    background-color: rgb(255, 255, 255);
+    cursor:pointer;
+    border-radius:5px;
+}
+.nav2 button:hover{
+    background-color: rgb(220, 220, 220);
+}
+
+.info{
+    color:rgb(15, 14, 14);
+    text-align:center;
+    background-color: orangered;
+    height: 540px;
+    margin-top: 50px;
+  
+}
+.info h2{
+    font-size:20px;
+    margin-top:20px;
+    padding-top: 30px;
+   color: aliceblue;
+}
+
+.info h1{
+    font-size:40px;
+    margin-top:20px;
+    color: rgb(249, 247, 244);
+}
+.info p{
+    font-size:20px;
+    margin:20px;
+    color: rgb(240, 238, 238);
+}
+.info img{
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+  
+}
+
+.info a{
+    text-decoration:none;
+    color: rgb(1, 20, 57);
+    font-size:20px;
+    background-color: rgb(19, 228, 40);
+    padding:10px;
+    border-radius:10px;
+  
+    
+
+}
+.info a:hover{
+    background-color: rgb(7, 136, 21);
+    color: white;
+    margin-top: 500px;
+}
+.dealing{
+    display:flex;
+   
+    flex-direction: row;
+    justify-content: space-around;
+    padding:20px;
+    margin-top:200px;
+    background-color: rgb(232, 239, 232);
+ 
+    
+}
+
+.image{
+    display:grid;
+    align-items:left;
+    justify-content: space-around;
+    background-color: rgb(246, 245, 243);
+    padding-right: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 20px;
+    height: 600px;
+    width: 400px;
+    
+}
+.image h4{
+    grid-column: span 2;
+    text-align:left;
+   
+    margin-left:5px;
+}
+
+ .img1,.img2,.img3,.img4{
+      margin:5px;   
+    text-align:center;
+    
+}
+.img1 img,.img2 img,.img3 img,.img4 img{
+    height:150px;
+    width:100px;
+    border-radius:10px;
+}
+.img1 p,.img2 p,.img3 p,.img4 p{
+    font-size:15px;
+    font-weight: ;
+    color: rgb(117, 95, 185);
+}
+
+.image2{
+    display:grid;
+    align-items:center;
+    justify-content: space-around;
+   background-color: rgb(217, 226, 223);
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 600px;
+    width: 400px;
+}
+.image2 h4{
+    grid-column: span 2;
+    text-align:left;
+    margin-left:5px;
+}
+    .img5,.img6,.img7,.img8{
+        margin:5px;   
+        text-align:center;
+    
+    }
+    .img5 img,.img6 img,.img7 img,.img8 img{
+        height:150px;
+        width:100px;
+        border-radius:10px;
+    }
+    .img5 p,.img6 p,.img7 p,.img8 p{
+        font-size:15px;
+        font-weight: ;
+        color: rgb(87, 49, 236);
+    }
+.image3{
+    display:grid;
+    align-items:center;
+    justify-content: space-around;
+    background-color: rgb(228, 220, 220);
+   margin-left: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    height: 600px;
+    width: 400px;
+
+}
+.image3 h4{
+    grid-column: span 2;
+    text-align:left;
+    margin-left:5px;
+}
+    .img9,.img10,.img11,.img12{
+        margin:5px;   
+        text-align:center;
+    
+    }
+    .img9 img,.img10 img,.img11 img,.img12 img{
+        height:150px;
+        width:100px;
+        border-radius:10px;
+    }
+    .img9 p,.img10 p,.img11 p,.img12 p{
+        font-size:15px;
+        font-weight: ;
+        color: rgb(61, 17, 234);
+    }
+    .about{
+        
+        color:rgb(18, 18, 18);
+        text-align:center;
+        background-color: rgb(234, 73, 14);
+        margin-top:100px;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+      
+    }
+    .about h1{
+        grid-column: span 2;
+        font-size:30px;
+        color: black;
+       
+    }
+    .details1,.details2,.details3,.details4{
+        margin:20px;
+        text-align:center;
+        border-radius:0px;
+        padding:10px;
+        padding-left: 30px;
+        
+        
+        background-color: rgb(224, 8, 8);
+    } 
+    .box {
+        background: url(https://tse3.mm.bing.net/th/id/OIP.nsv28bqQxugxrv5m7nvGHgHaMz?pid=Api&P=0&h=220);
+      
+       
+    }
+    #contact{
+        font-size: 70px;
+        text-align: center;
+        padding-top: 160px;
+        color: rgb(251, 11, 11);
+        background-color: rgb(246, 245, 243);
+        
+    }
+    .contactform{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:400px;
+        margin: auto;
+        height: 500px;
+        background :url(https://tse1.mm.bing.net/th/id/OIP.Sp7hOT3iemgFWOmWTBahuQHaEo?pid=Api&h=220&P=0);
+        border-radius: 20px;
+        
+    }
+    .label[for="first name"], .label[for="last name"], .label[for="email"], .label[for="message"]{
+        font-size: 50px;
+        font-weight: bold;
+        display: block;
+        align-content: center;
+        text-align: center;
+        
+    }
+    .submitbutton{
+        background-color: rgb(22, 198, 221);
+        border: none;
+        padding: 10px 20px;
+        font-size: large;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .submitbutton{
+        background-color: rgb(213, 93, 19);
+        cursor: pointer;
+        transform: scale(1. 1);
+        padding: 10px 20px;
+        align-items: center;
+        height: 50px;
+        width: 200px;
+    
+    }
+    .footer{
+        background-color: rgb(0, 7, 11);
+        height: 50px;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+   
